@@ -90,4 +90,10 @@ function moveDodgerRight() {
   }
 }
 
+function moveDodger(xChange) {
+  const left = getLeft()
+  const newPosition = getNewPosition(left, +1)
+  dodger.style.left = newPosition + 'px'
+}
+
 
