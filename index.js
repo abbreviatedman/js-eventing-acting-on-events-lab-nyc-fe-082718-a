@@ -19,7 +19,8 @@ function moveDodgerLeft() {
 }
 
 function moveDodgerRight() {
-  
+  const rightNumbers = dodger.style.right.replace('px', '')
+  console.log(rightNumbers)
 }
 
 
