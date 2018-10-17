@@ -30,7 +30,6 @@ dodger.style.backgroundColor = 'pink'
 
 
 
-
 // const dodger = document.querySelector('#dodger')
 
 // const getLeft = () => dodger.style.left.replace('px', '')
