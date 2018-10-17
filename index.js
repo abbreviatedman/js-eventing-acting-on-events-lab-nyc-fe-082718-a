@@ -1,7 +1,6 @@
 const dodger = document.querySelector('#dodger');
 
-console.log(dodger)
-
+dodger.style.backgroundColor = 'pink'
 
 
 
