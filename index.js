@@ -1,5 +1,7 @@
 const dodger = document.querySelector('#dodger');
 
+console.log(dodger)
+
 
 
 
