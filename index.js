@@ -13,8 +13,6 @@ document.addEventListener('keydown', function(event) {
 function moveDodgerLeft() {
   var leftNumbers = dodger.style.left.replace('px', '')
   var left = parseInt(leftNumbers, 10)
-  console.log(dodger)
-  console.log(left)
   if (left > 0) {
     dodger.style.left = `${left - 1}px`
   }
