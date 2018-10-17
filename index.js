@@ -1,30 +1,30 @@
-// const dodger = document.querySelector('#dodger');
+const dodger = document.querySelector('#dodger');
 
-// dodger.style.backgroundColor = 'pink'
+dodger.style.backgroundColor = 'pink'
 
-// document.addEventListener('keydown', function(event) {
-//   if (event.which === 37) {
-//     moveDodgerLeft()
-//   } else if (event.which === 39) {
-//     moveDodgerRight()
-//   }
-// })
+document.addEventListener('keydown', function(event) {
+  if (event.which === 37) {
+    moveDodgerLeft()
+  } else if (event.which === 39) {
+    moveDodgerRight()
+  }
+})
 
-// function moveDodgerLeft() {
-//   var leftNumbers = dodger.style.left.replace('px', '')
-//   var left = parseInt(leftNumbers, 10)
-//   if (left > 0) {
-//     dodger.style.left = `${left - 5}px`
-//   }
-// }
+function moveDodgerLeft() {
+  var leftNumbers = dodger.style.left.replace('px', '')
+  var left = parseInt(leftNumbers, 10)
+  if (left > 0) {
+    dodger.style.left = `${left - 5}px`
+  }
+}
 
-// function moveDodgerRight() {
-//   var leftNumbers = dodger.style.left.replace('px', '')
-//   var left = parseInt(leftNumbers, 10)
-//   if (left <= 360) {
-//     dodger.style.left = `${left + 5}px`
-//   }
-// }
+function moveDodgerRight() {
+  var leftNumbers = dodger.style.left.replace('px', '')
+  var left = parseInt(leftNumbers, 10)
+  if (left <= 360) {
+    dodger.style.left = `${left + 5}px`
+  }
+}
 
 
 
