@@ -1,5 +1,4 @@
-
-
+const dodger = document.querySelector('#dodger');
 
 
 
