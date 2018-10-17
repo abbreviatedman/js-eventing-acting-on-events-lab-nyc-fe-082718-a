@@ -73,26 +73,20 @@ function handleKey(event) {
 }
 
 function moveDodgerLeft() {
-  const left = getLeft()
-  const newPosition = getNewPosition(left, -1)
-  
   if (left >= 0) {
-    dodger.style.left = newPosition + 'px'
+    moveDodger(-1)
   }
 }
 
 function moveDodgerRight() {
-  const left = getLeft()
-  const newPosition = getNewPosition(left, +1)
-  
   if (left <= 360) {
-    dodger.style.left = newPosition + 'px'
+    moveDodger(1);
   }
 }
 
 function moveDodger(xChange) {
   const left = getLeft()
-  const newPosition = getNewPosition(left, +1)
+  const newPosition = getNewPosition(left, xChange)
   dodger.style.left = newPosition + 'px'
 }
 
