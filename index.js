@@ -11,6 +11,7 @@ document.addEventListener('keydown', function(event) {
 })
 
 function moveDodgerLeft() {
+  console.log('moveDodgerLeft')
   var leftNumbers = dodger.style.left.replace('px', '')
   var left = parseInt(leftNumbers, 10)
  
